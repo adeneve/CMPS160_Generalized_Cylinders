@@ -1,0 +1,27 @@
+<!-- Andrew de Neve, 11/3/2017 -->
+<html>
+	<head>
+	<title>
+	Generalized Cylinder
+	</title>
+	</head>
+		<body onload="main();" bgcolor="#2FA1BF" oncontextmenu="return false">
+			<canvas id = "canvas" width="1001" height="1001">
+			browser does not support canvas.
+			</canvas>
+			<br>
+			<button id='b1'>Create a Generalized Cylinder</button>
+			<button id='b2'>Load in a Generalized Cylinder</button>
+			<input type="file" id="fileinput"/> <br> <br>
+			<button id='b3' >Toggle Smooth Shading</button>
+			<button id='b4' >Toggle Specular Lighting</button>  <input type="range" id='Gloss' min=4 max=20 value="1"> Gloss (Specular must be toggled to see a difference) </input> <br> <br>
+			<button id='b5' >Toggle Normals</button>
+			<button id='b6' >Toggle Point Light</button>
+			<button id ='b7' >  Toggle Directional Light</button>
+			<button id = 'b8' > Change view </button>
+			<button id = 'b9' style="padding: 15px 32px;font-size:16;"> Deselect Object </button>
+		<script src="GC.js"> </script>
+		<script src="../lib/cuon-matrix.js"></script>
+		<script src="../lib/ioSOR.js"></script>
+		</body>
+</html>
